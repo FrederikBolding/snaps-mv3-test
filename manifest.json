@@ -1,0 +1,17 @@
+{
+    "name": "Snaps MV3 Test",
+    "description": "Snaps MV3 Test",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "sandbox": {
+        "pages": [
+            "sandbox.html"
+        ]
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
